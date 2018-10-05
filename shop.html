@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name=“viewport” content=“width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style purp.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script purp.js"></script>
+
+</head>
+
+<!-------navigatie bar------->
+
+<header>
+  <div class="container">
+
+    <h1 class="logo"><span>High.on.</span>Purp</h1>
+
+    <nav class="site-nav">
+      <ul>
+        <li><a href="./index purp.html"><i class="fas fa-home"></i></i> Home</a></li>
+        <li><a href="./shop.html"><i class="fas fa-shopping-cart"></i></i> Shop</a></li>
+        <li><a href="./about.html"><i class="far fa-address-card"></i></i></i> About</a></li>
+        <li><a href="./contact purp.html"><i class="far fa-envelope"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="menu-toggle">
+      <div class="hamburger"></div>
+    </div>
+
+  </div>
+
+</header>
+
+<div class="imgbox">
+  <img src="webshop fotokopie.jpg" class="center-fit">
+  <div class="centered"><h1>Shop</h1></div>
+</div>
+
+<style>
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* { box-sizing: border-box; }
+
+body {
+  width: 98.5%;
+  margin-top: 6px auto;
+  font-family: sans-serif;
+  align-content: center;
+}
+
+
+
+.textOverImage{
+    position:relative;
+    width:300px;
+    height:300px;
+    float:left;
+    margin:4px;
+    background-size:100%;
+    background-position:center;
+    transition:0.5s;
+    overflow:hidden;
+    border-radius:4px;
+
+
+  }
+
+  .textOverImage:hover{
+    background-size:110%;
+  }
+
+
+
+  .textOverImage:after{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    color:#fff;
+    padding:8px;
+    content:attr(data-text);
+    transition:0.5s;
+    padding-top:15em;
+    margin-top:8px;
+    transform:translateY(100%);
+    background-color: gray;
+    opacity:0;
+  }
+
+  .textOverImage:hover:after{
+    transform:translateY(0);
+    transition:0.5s 0.1s;
+    opacity:0.75;
+
+  }
+
+.textOverImage:hover:before{
+    transform:translateY(0);
+    padding:8px;
+    background-color:rgba(0,0,0,0.6);
+    transition:0.5s;
+}
+
+
+</style>
+
+
+<body>
+<br>
+<div class=gallery>
+
+  <a href="http://codepen.io/zFunx/pen/GmMGax" class="textOverImage" style="background-image:url(https://mosaic04.ztat.net/vgs/media/packshot/pdp-gallery/NI/11/1A/09/FA/11/NI111A09F-A11@21.1.jpg)" data-text="FERRAGAMO $600,-">
+  </a>
+
+  <a href="http://codepen.io/zFunx/pen/GmMGax" class="textOverImage" style="background-image:url(https://mosaic03.ztat.net/vgs/media/packshot/pdp-gallery/SA/D1/1S/00/0A/12/SAD11S000-A12@14.1.jpg)" data-text="CALVIN KLEIN $250,-">
+  </a>
+
+  <a href="http://codepen.io/zFunx/pen/GmMGax" class="textOverImage" style="background-image:url(https://mosaic03.ztat.net/vgs/media/packshot/pdp-gallery/NI/11/2A/09/40/50/NI112A094-050@19.jpg)" data-text="BALENCIAGA $700,-">
+  </a>
+
+  <a href="http://codepen.io/zFunx/pen/GmMGax" class="textOverImage" style="background-image:url(https://mosaic04.ztat.net/vgs/media/packshot/pdp-gallery/RE/01/1S/03/HA/12/RE011S03H-A12@2.5.jpg)" data-text="GIVENCHY $900,-">
+  </a>
+
+  <a href="http://codepen.io/zFunx/pen/GmMGax" class="textOverImage" style="background-image:url(https://mosaic03.ztat.net/vgs/media/packshot/pdp-gallery/NI/11/2O/00/JA/12/NI112O00J-A12@12.jpg)" data-text="NIKE $130,-">
+  </a>
+
+  <a href="http://codepen.io/zFunx/pen/GmMGax" class="textOverImage" style="background-image:url(https://mosaic04.ztat.net/vgs/media/packshot/pdp-gallery/PU/11/1A/06/OA/11/PU111A06O-A11@14.jpg)" data-text="ADIDAS $120,-">
+  </a>
+
+  <a href="http://codepen.io/zFunx/pen/GmMGax" class="textOverImage" style="background-image:url(https://mosaic03.ztat.net/vgs/media/packshot/pdp-gallery/NI/11/2O/00/JA/12/NI112O00J-A12@12.jpg)" data-text="Y3 $360,-">
+  </a>
+
+  <a href="http://codepen.io/zFunx/pen/GmMGax" class="textOverImage" style="background-image:url(https://mosaic04.ztat.net/vgs/media/packshot/pdp-gallery/PU/11/1A/06/OA/11/PU111A06O-A11@14.jpg)" data-text="LOUIS VUITTON $440,-">
+  </a>
+</div>
+
+</body>
